@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <LangVersion>preview</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RepositoryUrl>https://github.com/Quahu/Dynamicium</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Quahu/Dynamicium</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Quahu/Dynamicium/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryType>Git</RepositoryType>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Qommon" Version="2.0.7" />
+    </ItemGroup>
+
+</Project>

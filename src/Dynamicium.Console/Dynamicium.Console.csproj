@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <LangVersion>preview</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RepositoryUrl>https://github.com/Quahu/Dynamicium</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Quahu/Dynamicium</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Quahu/Dynamicium/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryType>Git</RepositoryType>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\Dynamicium\Dynamicium.csproj"/>
+    </ItemGroup>
+
+</Project>
